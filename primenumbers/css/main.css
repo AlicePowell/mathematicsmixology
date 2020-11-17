@@ -1,0 +1,358 @@
+
+
+body {
+    --primary-background: rgb(215, 224, 252); 
+    --primary-red: rgb(236, 100, 75);
+    --primary-pink: rgb(252, 168, 146);
+    --primary-intense: rgb(32, 32, 1);
+    --paler-intense: rgb(145, 145, 120);
+    --primary-font: rgb(169, 192, 255);
+    --count: rgb(228, 64, 4);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-background);
+    font-family: 'Overpass', sans-serif;
+    font-size: 100%;
+}
+
+/*.titleMath .instructions {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}*/
+
+.titleMath {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: var(--primary-pink);
+    font-size: 6vw;
+    font-family: 'Overpass', sans-serif;
+   ;
+    
+}
+
+.instructions{
+    background-color: var(--primary-pink);
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-background);
+    font-size: 6vw;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+/*
+span {   
+    color: var(--primary-pink);
+    font-size: 6vw;
+    font-family: 'Khand', sans-serif;
+}*/
+
+
+.leavesContainer { 
+    display: block;
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+button {
+  all: revert; 
+  border: transparent;
+  background-color: transparent;
+  height: 30px;
+  width: 80px;
+  border-radius: 3%;
+  color: var(--primary-red);
+  font-size: 2vw;
+  box-shadow: none;
+  outline: none;
+  transition: 1.5s;
+}
+
+button:active {  
+    border: transparent;}
+
+button:hover {
+    font-size: 3vw; 
+    cursor: help;}
+
+.button1 {
+    position: absolute;
+    top: 15%;
+    left: 11%;     
+}
+
+.button2 {
+    position: absolute;
+    bottom: 30%;
+    right: 8%;
+}
+
+.button3 {
+    position: absolute;
+    top: 48%;
+    left: 36%;
+}
+
+.button4 {
+    position: absolute;
+    bottom: 18%;
+    left: 18%;
+}
+
+.button5 {
+    position: absolute;
+    top: 32%;
+    left: 26%;
+}
+
+.button6 {
+    position: absolute;
+    bottom: 9%;
+    left: 48%;
+}
+
+.button7 {
+    position: absolute;
+    bottom: 23%;
+    right: 24%;
+}
+.button8 {
+    position: absolute;
+    top: 23%;
+    left: 53%;
+}
+
+.button9 {
+    position: absolute;
+    bottom: 54%;
+    right: 6%;
+}
+
+/*Styling footer*/
+.definitionsContainer{
+    display: flex;
+    width: 100vw;
+    height: 40vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+    background-color: var(--primary-background);
+    font-size: 2vw;
+    color: var(--primary-intense);
+}
+
+
+.rowContainer1 {
+    display: flex;     
+    flex-direction: row;
+    justify-content: center;
+    height: 35%;
+    width: 98%; 
+}
+
+.rowContainer2 {
+    display: flex;     
+    flex-direction: row;
+    justify-content: center;
+    height: 35%;
+    width: 98%; 
+}
+
+.rowContainer3 {
+    display: flex;     
+    flex-direction: row;
+    justify-content: center;
+    height: 30%;
+    width: 98%;
+}
+
+.blank1 {
+    width: 36%;
+    height: auto;
+}
+
+.dream1 {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    height: 100%;
+    background-color: var(--primary-pink);
+    justify-content: flex-end;
+    align-content: space-around; 
+}
+
+.define1 {
+    width: 36%;
+    height: auto;
+    background-color: var(--primary-font);
+}
+
+.count {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    width: 14%;
+    height: auto;
+    background-color: var(--paler-intense);
+}
+
+.dream2 {
+    width: 44%;
+    height: auto;
+    background-color: var(--primary-pink);
+}
+
+.define2 {
+    width: 50%;
+    height: auto;
+    background-color: var(--primary-font);
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8vw;
+}
+
+/*.positive2 {
+    width: 14%;
+    height: auto;
+    background-color: var(--primary-font);
+}*/
+
+.blank2 {
+    width: 44%;
+    height: auto;
+}
+
+.dreamPrime1 {   
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;   
+}
+
+.dreamPrime2 {
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 4.5%;
+}
+
+.definePrime1 {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;   
+}
+
+.definePrime2 {
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;   
+}
+
+#clickme {
+  position: absolute;
+  text-align: center;
+  cursor: cell;
+  border: transparent;
+  height: 7%; 
+  border-radius: 3%;
+  color: var(--count);
+  font-size: 3.5vw;
+  box-shadow: none;
+  outline:none;
+  transition: none;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px) {
+    
+    /* Repositioning buttons*/
+.button1 {
+    position: absolute;
+    top: 15%;
+    left: 12%;     
+}
+
+.button2 {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+.button3 {
+    position: absolute;
+    top: 48%;
+    left: 36%;
+}
+
+.button4 {
+    position: absolute;
+    bottom: 20%;
+    left: 22%;
+}
+
+.button5 {
+    position: absolute;
+    top: 32%;
+    left: 26%;
+}
+
+.button6 {
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+}
+
+.button7 {
+    position: absolute;
+    bottom: 23%;
+    right: 27%;
+}
+.button8 {
+    position: absolute;
+    top: 24%;
+    left: 56%;}
+
+.button9 {
+    position: absolute;
+    bottom: 54.5%;
+    right: 9%;}
+
+
+    
+}
+
+@media (orientation:landscape) {
+    #clickme {
+        position: absolute;
+        text-align: center;
+        cursor: cell;
+        border: transparent;
+        height: 10vw; 
+        width: 10vw;
+        border-radius: 3%;
+        color: var(--count);
+        font-size: 3.5vw;
+        box-shadow: none;
+        outline:none;
+        transition: none;
+      }
+}

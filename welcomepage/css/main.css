@@ -1,0 +1,173 @@
+/*Make images never larger than full screen*/
+body {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+align-content: center;}
+
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+/* Container needed to position the images and buttons within.  Adjust the width as needed */
+.container1 {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: auto;
+    padding-top: 100%;
+    border: solid;
+    border-color: rgba(247, 185, 170, 0.603);
+    border-style: outset;
+    border-width: 0.5px;
+  
+
+
+}
+
+/*  Make the image responsive */
+
+
+/*.overlaid-image {
+    position: relative; 
+    ;
+} */
+
+.image-base {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.image-overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.image-transparent{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.05;
+    z-index: 3;
+}
+
+
+/* Style the button and place it in the middle of the container image */
+
+
+.btn {    
+    all: revert;
+    position: absolute;
+    left: 52.5vw;
+    top: 41vw;
+    z-index: 4;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: solid 1px rgb(92, 145, 139);
+    border-top: dotted 1px rgb(92, 145, 139);
+    border-left: none;
+    color: transparent;
+    padding: 2vw 0.1vw;
+    box-shadow: none;
+    border-radius: 3.5px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 3vw;   
+}
+
+.btn:hover { 
+    font-size: 4vw;
+    color: rgb(1, 50, 67);
+    border: none;
+    transition: 1.5s;
+    cursor: default;
+}
+
+
+/* Place Instagram icon bottom left */
+.instagramContainer {
+    position: absolute;
+    left: 50vw;
+    top: 94vw;
+    z-index: 5;
+    width: 2vw;
+    height: 2vw;   
+}
+
+.instagramLink {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+}
+
+
+
+
+@media (orientation:landscape) {
+    
+/*Container needed to position the images and buttons within.  Adjust the width as needed */
+    .container1 {
+        position: relative;
+        display: block; 
+        height: 100vh;
+        max-width: 100vh;
+        padding-top: 100%;    
+    }
+
+    img {
+        max-height: 100vh;
+        max-width: auto;
+    }
+
+    .btn {    
+        all: revert;
+        position: absolute;
+        left: 52.2vh;
+        top: 41vh;
+        z-index: 4;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        border: solid 1px rgb(92, 145, 139);
+        border-top: dotted 1px rgb(92, 145, 139);
+        border-left: none;
+        color: transparent;
+        padding: 2vh 0.1vh;
+        box-shadow: none;
+        border-radius: 3.5px;
+        font-family: 'Overpass', sans-serif;
+        font-size: 2.9vh;          
+    }
+
+    .btn:hover { 
+        font-size: 4vh;
+        color: rgb(1, 50, 67);
+        border: none;
+        transition: 1.5s;
+        cursor: default;
+    }
+
+      
+    .instagramContainer {
+        position: absolute;
+        left: 50vh;
+        top: 94vh;
+        z-index: 5;
+        width: 2vh;
+        height: 2vh;   
+    }
+
+}  
+
+/*@media (max-width: 480px) {
+    .footerContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+}}*/
+/*
