@@ -50,14 +50,6 @@ body {
 }
 
 
-/*
-span {   
-    color: var(--primary-pink);
-    font-size: 6vw;
-    font-family: 'Khand', sans-serif;
-}*/
-
-
 .leavesContainer { 
     display: block;
     width: 100vw;

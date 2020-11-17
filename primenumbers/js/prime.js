@@ -12,7 +12,7 @@ var primeTick = 0
 
 function windowBoom(id) {primeTick +=1; 
   console.log(primeTick);
-  if (primeTick>3) {window.location="../index.html"}
+  if (primeTick>3) {window.location="../mathsquiz/maths3.html"}
    else id.innerHTML = "BOOM!"; 
    id.style.color="rgb(215, 224, 252)";
    id.style.fontSize = "3vw";
