@@ -45,7 +45,7 @@ h1 {
 
 .main-section {
     display: flex;
-    top-margin: 10vh;
+    margin-top: 10vh;
     flex-direction: row;
     
    
