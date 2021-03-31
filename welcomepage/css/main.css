@@ -2,13 +2,13 @@
 body {display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    height: auto;
+    width: 100vmin;
+    height: 100vmin;
 align-content: center;}
 
 
 img {
-    max-width: 100%;
+    max-width: 100vmin;
     max-height: auto;
 }
 
@@ -16,8 +16,9 @@ img {
 .container1 {
     position: relative;
     display: block;
-    width: 100vw;
-    height: auto;
+    width: 100vmin;
+    height: 100vmin;
+    margin: auto;
     padding-top: 100%;
     border: solid;
     border-color: rgba(247, 185, 170, 0.603);
@@ -55,7 +56,7 @@ img {
     position: absolute;
     top: 0%;
     left: 0%;
-    opacity: 0.05;
+    opacity: 0.03;
     z-index: 3;
 }
 

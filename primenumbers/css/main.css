@@ -75,7 +75,7 @@ button:active {
     border: transparent;}
 
 button:hover {
-    font-size: 3vw; 
+    font-size: 3vmin; 
     cursor: help;}
 
 .button1 {
@@ -260,7 +260,7 @@ button:hover {
   height: 7%; 
   border-radius: 3%;
   color: var(--count);
-  font-size: 3.5vw;
+  font-size: 3.5vmin;
   box-shadow: none;
   outline:none;
   transition: none;
